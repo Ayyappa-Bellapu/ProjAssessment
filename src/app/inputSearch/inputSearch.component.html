@@ -1,0 +1,12 @@
+<div class="page-header">
+    <h4>
+        <small>Github Search</small>
+    </h4>
+</div>
+
+<br />
+
+<div class="search-details">
+    <input type="text" id="input1" (keyup)="getResults()" [(ngModel)]="searchInput" />
+</div>
+<results [list]="results"> </results>
